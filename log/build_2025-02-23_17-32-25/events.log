@@ -1,0 +1,1303 @@
+[0.000000] (-) TimerEvent: {}
+[0.001329] (arm_controller) JobQueued: {'identifier': 'arm_controller', 'dependencies': OrderedDict()}
+[0.001477] (arm_description) JobQueued: {'identifier': 'arm_description', 'dependencies': OrderedDict()}
+[0.001521] (arm_gazebo) JobQueued: {'identifier': 'arm_gazebo', 'dependencies': OrderedDict()}
+[0.001554] (arm_controller) JobStarted: {'identifier': 'arm_controller'}
+[0.029833] (arm_description) JobStarted: {'identifier': 'arm_description'}
+[0.044437] (arm_gazebo) JobStarted: {'identifier': 'arm_gazebo'}
+[0.061251] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'cmake'}
+[0.066682] (arm_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/shrey/ros2_ws/src/arm_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shrey/ros2_ws/install/arm_controller'], 'cwd': '/home/shrey/ros2_ws/build/arm_controller', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_controller'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.082132] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'cmake'}
+[0.087575] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/shrey/ros2_ws/src/arm_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shrey/ros2_ws/install/arm_description'], 'cwd': '/home/shrey/ros2_ws/build/arm_description', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_description'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.104241] (-) TimerEvent: {}
+[0.104825] (arm_gazebo) JobProgress: {'identifier': 'arm_gazebo', 'progress': 'cmake'}
+[0.110832] (arm_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/shrey/ros2_ws/src/arm_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shrey/ros2_ws/install/arm_gazebo'], 'cwd': '/home/shrey/ros2_ws/build/arm_gazebo', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_gazebo'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.204924] (-) TimerEvent: {}
+[0.224019] (arm_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.224722] (arm_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.225135] (arm_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.305597] (-) TimerEvent: {}
+[0.406725] (-) TimerEvent: {}
+[0.507465] (-) TimerEvent: {}
+[0.572895] (arm_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.574220] (arm_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.574571] (arm_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.607751] (-) TimerEvent: {}
+[0.642296] (arm_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.643099] (arm_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.643610] (arm_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.707997] (-) TimerEvent: {}
+[0.809038] (-) TimerEvent: {}
+[0.877740] (arm_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.881651] (arm_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.884260] (arm_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.895677] (arm_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.902796] (arm_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.909377] (-) TimerEvent: {}
+[0.926488] (arm_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.934590] (arm_description) StdoutLine: {'line': b'-- Build files have been written to: /home/shrey/ros2_ws/build/arm_description\n'}
+[0.952849] (arm_description) CommandEnded: {'returncode': 0}
+[0.955232] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'build'}
+[0.961274] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shrey/ros2_ws/build/arm_description', '--', '-j12', '-l12'], 'cwd': '/home/shrey/ros2_ws/build/arm_description', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_description'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.009846] (-) TimerEvent: {}
+[1.056175] (arm_description) CommandEnded: {'returncode': 0}
+[1.059003] (arm_description) JobProgress: {'identifier': 'arm_description', 'progress': 'install'}
+[1.080094] (arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shrey/ros2_ws/build/arm_description'], 'cwd': '/home/shrey/ros2_ws/build/arm_description', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_description'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.095956] (arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.097080] (arm_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.099049] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//launch/display.launch.py\n'}
+[1.100306] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//urdf/arm.urdf\n'}
+[1.102098] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//urdf/arm.urdf.xacro\n'}
+[1.103227] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//urdf/arm_hardware_interface.xacro\n'}
+[1.103877] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description\n'}
+[1.105294] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description\n'}
+[1.106412] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh\n'}
+[1.107511] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv\n'}
+[1.108598] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/path.sh\n'}
+[1.110124] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/path.dsv\n'}
+[1.110502] (-) TimerEvent: {}
+[1.111385] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.bash\n'}
+[1.112832] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.sh\n'}
+[1.114575] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.zsh\n'}
+[1.115283] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.dsv\n'}
+[1.116076] (arm_description) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_description/share/arm_description/package.dsv\n'}
+[1.127515] (arm_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.128126] (arm_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.136931] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description\n'}
+[1.138252] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake\n'}
+[1.139849] (arm_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.140569] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake\n'}
+[1.141287] (arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/package.xml\n'}
+[1.141478] (arm_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.146439] (arm_description) CommandEnded: {'returncode': 0}
+[1.173101] (arm_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.173466] (arm_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.211088] (-) TimerEvent: {}
+[1.226078] (arm_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.226829] (arm_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.230579] (arm_description) JobEnded: {'identifier': 'arm_description', 'rc': 0}
+[1.282714] (arm_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.283420] (arm_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.311620] (-) TimerEvent: {}
+[1.417343] (-) TimerEvent: {}
+[1.449740] (arm_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.450332] (arm_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.459744] (arm_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.460109] (arm_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.520624] (-) TimerEvent: {}
+[1.626388] (-) TimerEvent: {}
+[1.732293] (-) TimerEvent: {}
+[1.838257] (-) TimerEvent: {}
+[1.944125] (-) TimerEvent: {}
+[2.050146] (-) TimerEvent: {}
+[2.151094] (-) TimerEvent: {}
+[2.252338] (-) TimerEvent: {}
+[2.356213] (-) TimerEvent: {}
+[2.462316] (-) TimerEvent: {}
+[2.568344] (-) TimerEvent: {}
+[2.673842] (-) TimerEvent: {}
+[2.775278] (-) TimerEvent: {}
+[2.876849] (-) TimerEvent: {}
+[2.977709] (-) TimerEvent: {}
+[3.078795] (-) TimerEvent: {}
+[3.179655] (-) TimerEvent: {}
+[3.280432] (-) TimerEvent: {}
+[3.381281] (-) TimerEvent: {}
+[3.482584] (-) TimerEvent: {}
+[3.584002] (-) TimerEvent: {}
+[3.685636] (-) TimerEvent: {}
+[3.787031] (-) TimerEvent: {}
+[3.887878] (-) TimerEvent: {}
+[3.988642] (-) TimerEvent: {}
+[4.089495] (-) TimerEvent: {}
+[4.190359] (-) TimerEvent: {}
+[4.291248] (-) TimerEvent: {}
+[4.393044] (-) TimerEvent: {}
+[4.494297] (-) TimerEvent: {}
+[4.595754] (-) TimerEvent: {}
+[4.697170] (-) TimerEvent: {}
+[4.798219] (-) TimerEvent: {}
+[4.898935] (-) TimerEvent: {}
+[4.999777] (-) TimerEvent: {}
+[5.100517] (-) TimerEvent: {}
+[5.201549] (-) TimerEvent: {}
+[5.302985] (-) TimerEvent: {}
+[5.404544] (-) TimerEvent: {}
+[5.505710] (-) TimerEvent: {}
+[5.607113] (-) TimerEvent: {}
+[5.707980] (-) TimerEvent: {}
+[5.808668] (-) TimerEvent: {}
+[5.909549] (-) TimerEvent: {}
+[6.010433] (-) TimerEvent: {}
+[6.111332] (-) TimerEvent: {}
+[6.212264] (-) TimerEvent: {}
+[6.313824] (-) TimerEvent: {}
+[6.415671] (-) TimerEvent: {}
+[6.517196] (-) TimerEvent: {}
+[6.617918] (-) TimerEvent: {}
+[6.718981] (-) TimerEvent: {}
+[6.819750] (-) TimerEvent: {}
+[6.920614] (-) TimerEvent: {}
+[7.021531] (-) TimerEvent: {}
+[7.122381] (-) TimerEvent: {}
+[7.223589] (-) TimerEvent: {}
+[7.324578] (-) TimerEvent: {}
+[7.426075] (-) TimerEvent: {}
+[7.526892] (-) TimerEvent: {}
+[7.627660] (-) TimerEvent: {}
+[7.728303] (-) TimerEvent: {}
+[7.829019] (-) TimerEvent: {}
+[7.930003] (-) TimerEvent: {}
+[8.030778] (-) TimerEvent: {}
+[8.131661] (-) TimerEvent: {}
+[8.232539] (-) TimerEvent: {}
+[8.333226] (arm_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.333731] (-) TimerEvent: {}
+[8.339400] (arm_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.434881] (-) TimerEvent: {}
+[8.540854] (-) TimerEvent: {}
+[8.544588] (arm_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.641421] (-) TimerEvent: {}
+[8.654891] (arm_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[8.660127] (arm_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.741923] (-) TimerEvent: {}
+[8.776347] (arm_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.787871] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.814161] (arm_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.821632] (arm_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.833695] (arm_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.834609] (arm_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.835442] (arm_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.836307] (arm_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.836974] (arm_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.837273] (arm_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.837631] (arm_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.837833] (arm_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.838518] (arm_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.842340] (-) TimerEvent: {}
+[8.845350] (arm_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.859049] (arm_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.860353] (arm_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.861043] (arm_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.861459] (arm_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[8.862092] (arm_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[8.862945] (arm_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[8.863128] (arm_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[8.863253] (arm_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[8.863365] (arm_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[8.863473] (arm_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[8.863585] (arm_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.863727] (arm_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[8.869266] (arm_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[8.880430] (arm_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/shrey/ros2_ws/build/arm_controller\n'}
+[8.906689] (arm_controller) CommandEnded: {'returncode': 0}
+[8.908307] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'build'}
+[8.910817] (arm_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shrey/ros2_ws/build/arm_controller', '--', '-j12', '-l12'], 'cwd': '/home/shrey/ros2_ws/build/arm_controller', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_controller'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[8.942924] (-) TimerEvent: {}
+[9.018692] (arm_controller) CommandEnded: {'returncode': 0}
+[9.022598] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'install'}
+[9.023455] (arm_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shrey/ros2_ws/build/arm_controller'], 'cwd': '/home/shrey/ros2_ws/build/arm_controller', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_controller'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[9.036420] (arm_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.037269] (arm_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.037800] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller\n'}
+[9.043448] (-) TimerEvent: {}
+[9.068909] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller\n'}
+[9.092679] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh\n'}
+[9.118478] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv\n'}
+[9.139739] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/path.sh\n'}
+[9.143861] (-) TimerEvent: {}
+[9.158853] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/path.dsv\n'}
+[9.176773] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.bash\n'}
+[9.196502] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.sh\n'}
+[9.218449] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.zsh\n'}
+[9.238771] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.dsv\n'}
+[9.244364] (-) TimerEvent: {}
+[9.260915] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/package.dsv\n'}
+[9.280800] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/packages/arm_controller\n'}
+[9.304885] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake\n'}
+[9.324813] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake\n'}
+[9.344950] (arm_controller) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/package.xml\n'}
+[9.345388] (-) TimerEvent: {}
+[9.367799] (arm_controller) CommandEnded: {'returncode': 0}
+[9.410789] (arm_controller) JobEnded: {'identifier': 'arm_controller', 'rc': 0}
+[9.446074] (-) TimerEvent: {}
+[9.546899] (-) TimerEvent: {}
+[9.652857] (-) TimerEvent: {}
+[9.753759] (-) TimerEvent: {}
+[9.859703] (-) TimerEvent: {}
+[9.963129] (-) TimerEvent: {}
+[10.069145] (-) TimerEvent: {}
+[10.175383] (-) TimerEvent: {}
+[10.278975] (-) TimerEvent: {}
+[10.385216] (-) TimerEvent: {}
+[10.486527] (-) TimerEvent: {}
+[10.592706] (-) TimerEvent: {}
+[10.699155] (-) TimerEvent: {}
+[10.803711] (-) TimerEvent: {}
+[10.910101] (-) TimerEvent: {}
+[11.012359] (-) TimerEvent: {}
+[11.117613] (-) TimerEvent: {}
+[11.223835] (-) TimerEvent: {}
+[11.329536] (-) TimerEvent: {}
+[11.432110] (-) TimerEvent: {}
+[11.535328] (-) TimerEvent: {}
+[11.641666] (-) TimerEvent: {}
+[11.742484] (-) TimerEvent: {}
+[11.843930] (-) TimerEvent: {}
+[11.950119] (-) TimerEvent: {}
+[12.054146] (-) TimerEvent: {}
+[12.160519] (-) TimerEvent: {}
+[12.261975] (-) TimerEvent: {}
+[12.365572] (-) TimerEvent: {}
+[12.471836] (-) TimerEvent: {}
+[12.576724] (-) TimerEvent: {}
+[12.682899] (-) TimerEvent: {}
+[12.785331] (-) TimerEvent: {}
+[12.891479] (-) TimerEvent: {}
+[12.997691] (-) TimerEvent: {}
+[13.102329] (-) TimerEvent: {}
+[13.204576] (-) TimerEvent: {}
+[13.308046] (-) TimerEvent: {}
+[13.414379] (-) TimerEvent: {}
+[13.515198] (-) TimerEvent: {}
+[13.621435] (-) TimerEvent: {}
+[13.727704] (-) TimerEvent: {}
+[13.832369] (-) TimerEvent: {}
+[13.934309] (-) TimerEvent: {}
+[14.035512] (-) TimerEvent: {}
+[14.140034] (-) TimerEvent: {}
+[14.246342] (-) TimerEvent: {}
+[14.351457] (-) TimerEvent: {}
+[14.455593] (-) TimerEvent: {}
+[14.557312] (-) TimerEvent: {}
+[14.658142] (-) TimerEvent: {}
+[14.759480] (-) TimerEvent: {}
+[14.860777] (-) TimerEvent: {}
+[14.962053] (-) TimerEvent: {}
+[15.063439] (-) TimerEvent: {}
+[15.164442] (-) TimerEvent: {}
+[15.265462] (-) TimerEvent: {}
+[15.366735] (-) TimerEvent: {}
+[15.468080] (-) TimerEvent: {}
+[15.569338] (-) TimerEvent: {}
+[15.670665] (-) TimerEvent: {}
+[15.771869] (-) TimerEvent: {}
+[15.873091] (-) TimerEvent: {}
+[15.974370] (-) TimerEvent: {}
+[16.075564] (-) TimerEvent: {}
+[16.176864] (-) TimerEvent: {}
+[16.277748] (-) TimerEvent: {}
+[16.378939] (-) TimerEvent: {}
+[16.479846] (-) TimerEvent: {}
+[16.580916] (-) TimerEvent: {}
+[16.682028] (-) TimerEvent: {}
+[16.783031] (-) TimerEvent: {}
+[16.884190] (-) TimerEvent: {}
+[16.985271] (-) TimerEvent: {}
+[17.087211] (-) TimerEvent: {}
+[17.187849] (-) TimerEvent: {}
+[17.288780] (-) TimerEvent: {}
+[17.389658] (-) TimerEvent: {}
+[17.490571] (-) TimerEvent: {}
+[17.591494] (-) TimerEvent: {}
+[17.692875] (-) TimerEvent: {}
+[17.794164] (-) TimerEvent: {}
+[17.895656] (-) TimerEvent: {}
+[17.997195] (-) TimerEvent: {}
+[18.097978] (-) TimerEvent: {}
+[18.198793] (-) TimerEvent: {}
+[18.299810] (-) TimerEvent: {}
+[18.400722] (-) TimerEvent: {}
+[18.501567] (-) TimerEvent: {}
+[18.602629] (-) TimerEvent: {}
+[18.704024] (-) TimerEvent: {}
+[18.805586] (-) TimerEvent: {}
+[18.907116] (-) TimerEvent: {}
+[19.008197] (-) TimerEvent: {}
+[19.109335] (-) TimerEvent: {}
+[19.210580] (-) TimerEvent: {}
+[19.311528] (-) TimerEvent: {}
+[19.412587] (-) TimerEvent: {}
+[19.513780] (-) TimerEvent: {}
+[19.615668] (-) TimerEvent: {}
+[19.717449] (-) TimerEvent: {}
+[19.818583] (-) TimerEvent: {}
+[19.919476] (-) TimerEvent: {}
+[20.020550] (-) TimerEvent: {}
+[20.121750] (-) TimerEvent: {}
+[20.222773] (-) TimerEvent: {}
+[20.323775] (-) TimerEvent: {}
+[20.424913] (-) TimerEvent: {}
+[20.526343] (-) TimerEvent: {}
+[20.627427] (-) TimerEvent: {}
+[20.728464] (-) TimerEvent: {}
+[20.829531] (-) TimerEvent: {}
+[20.930769] (-) TimerEvent: {}
+[21.031837] (-) TimerEvent: {}
+[21.133259] (-) TimerEvent: {}
+[21.239412] (-) TimerEvent: {}
+[21.340285] (-) TimerEvent: {}
+[21.441646] (-) TimerEvent: {}
+[21.543004] (-) TimerEvent: {}
+[21.643964] (-) TimerEvent: {}
+[21.745287] (-) TimerEvent: {}
+[21.846732] (-) TimerEvent: {}
+[21.947423] (-) TimerEvent: {}
+[22.048280] (-) TimerEvent: {}
+[22.149070] (-) TimerEvent: {}
+[22.255035] (-) TimerEvent: {}
+[22.361212] (-) TimerEvent: {}
+[22.467154] (-) TimerEvent: {}
+[22.568830] (-) TimerEvent: {}
+[22.670778] (-) TimerEvent: {}
+[22.773152] (-) TimerEvent: {}
+[22.879416] (-) TimerEvent: {}
+[22.985270] (-) TimerEvent: {}
+[23.091325] (-) TimerEvent: {}
+[23.195142] (-) TimerEvent: {}
+[23.301040] (-) TimerEvent: {}
+[23.407077] (-) TimerEvent: {}
+[23.513076] (-) TimerEvent: {}
+[23.614485] (-) TimerEvent: {}
+[23.719319] (-) TimerEvent: {}
+[23.824863] (-) TimerEvent: {}
+[23.930770] (-) TimerEvent: {}
+[24.036665] (-) TimerEvent: {}
+[24.138049] (-) TimerEvent: {}
+[24.244082] (-) TimerEvent: {}
+[24.346867] (-) TimerEvent: {}
+[24.452790] (-) TimerEvent: {}
+[24.558618] (-) TimerEvent: {}
+[24.660406] (-) TimerEvent: {}
+[24.763982] (-) TimerEvent: {}
+[24.869218] (-) TimerEvent: {}
+[24.975084] (-) TimerEvent: {}
+[25.080923] (-) TimerEvent: {}
+[25.185909] (-) TimerEvent: {}
+[25.287926] (-) TimerEvent: {}
+[25.393751] (-) TimerEvent: {}
+[25.494987] (-) TimerEvent: {}
+[25.596208] (-) TimerEvent: {}
+[25.697623] (-) TimerEvent: {}
+[25.798364] (-) TimerEvent: {}
+[25.899198] (-) TimerEvent: {}
+[26.000002] (-) TimerEvent: {}
+[26.100872] (-) TimerEvent: {}
+[26.202516] (-) TimerEvent: {}
+[26.303912] (-) TimerEvent: {}
+[26.405154] (-) TimerEvent: {}
+[26.506575] (-) TimerEvent: {}
+[26.607393] (-) TimerEvent: {}
+[26.708264] (-) TimerEvent: {}
+[26.808975] (-) TimerEvent: {}
+[26.909780] (-) TimerEvent: {}
+[27.010624] (-) TimerEvent: {}
+[27.111515] (-) TimerEvent: {}
+[27.212815] (-) TimerEvent: {}
+[27.314164] (-) TimerEvent: {}
+[27.415542] (-) TimerEvent: {}
+[27.516937] (-) TimerEvent: {}
+[27.617674] (-) TimerEvent: {}
+[27.718524] (-) TimerEvent: {}
+[27.819312] (-) TimerEvent: {}
+[27.920151] (-) TimerEvent: {}
+[28.021049] (-) TimerEvent: {}
+[28.122473] (-) TimerEvent: {}
+[28.224137] (-) TimerEvent: {}
+[28.325007] (-) TimerEvent: {}
+[28.426543] (-) TimerEvent: {}
+[28.527352] (-) TimerEvent: {}
+[28.628253] (-) TimerEvent: {}
+[28.729137] (-) TimerEvent: {}
+[28.829914] (-) TimerEvent: {}
+[28.930967] (-) TimerEvent: {}
+[29.036185] (-) TimerEvent: {}
+[29.140385] (-) TimerEvent: {}
+[29.246307] (-) TimerEvent: {}
+[29.348096] (-) TimerEvent: {}
+[29.453844] (-) TimerEvent: {}
+[29.559503] (-) TimerEvent: {}
+[29.664180] (-) TimerEvent: {}
+[29.769237] (-) TimerEvent: {}
+[29.871712] (-) TimerEvent: {}
+[29.977454] (-) TimerEvent: {}
+[30.083315] (-) TimerEvent: {}
+[30.189039] (-) TimerEvent: {}
+[30.294891] (-) TimerEvent: {}
+[30.400626] (-) TimerEvent: {}
+[30.506322] (-) TimerEvent: {}
+[30.610016] (-) TimerEvent: {}
+[30.711536] (-) TimerEvent: {}
+[30.817034] (-) TimerEvent: {}
+[30.922843] (-) TimerEvent: {}
+[31.028617] (-) TimerEvent: {}
+[31.134452] (-) TimerEvent: {}
+[31.240165] (-) TimerEvent: {}
+[31.345876] (-) TimerEvent: {}
+[31.451649] (-) TimerEvent: {}
+[31.557693] (-) TimerEvent: {}
+[31.663632] (-) TimerEvent: {}
+[31.764575] (-) TimerEvent: {}
+[31.870212] (-) TimerEvent: {}
+[31.975893] (-) TimerEvent: {}
+[32.081621] (-) TimerEvent: {}
+[32.187359] (-) TimerEvent: {}
+[32.293200] (-) TimerEvent: {}
+[32.399030] (-) TimerEvent: {}
+[32.504819] (-) TimerEvent: {}
+[32.610636] (-) TimerEvent: {}
+[32.711731] (-) TimerEvent: {}
+[32.812735] (-) TimerEvent: {}
+[32.913883] (-) TimerEvent: {}
+[33.019663] (-) TimerEvent: {}
+[33.125390] (-) TimerEvent: {}
+[33.231114] (-) TimerEvent: {}
+[33.336883] (-) TimerEvent: {}
+[33.442570] (-) TimerEvent: {}
+[33.548372] (-) TimerEvent: {}
+[33.650872] (-) TimerEvent: {}
+[33.756684] (-) TimerEvent: {}
+[33.857824] (-) TimerEvent: {}
+[33.963624] (-) TimerEvent: {}
+[34.069345] (-) TimerEvent: {}
+[34.175070] (-) TimerEvent: {}
+[34.280703] (-) TimerEvent: {}
+[34.386556] (-) TimerEvent: {}
+[34.492279] (-) TimerEvent: {}
+[34.598015] (-) TimerEvent: {}
+[34.703776] (-) TimerEvent: {}
+[34.809383] (-) TimerEvent: {}
+[34.911589] (-) TimerEvent: {}
+[35.017319] (-) TimerEvent: {}
+[35.123095] (-) TimerEvent: {}
+[35.228891] (-) TimerEvent: {}
+[35.334650] (-) TimerEvent: {}
+[35.439810] (-) TimerEvent: {}
+[35.545496] (-) TimerEvent: {}
+[35.646805] (-) TimerEvent: {}
+[35.747725] (-) TimerEvent: {}
+[35.848787] (-) TimerEvent: {}
+[35.949802] (-) TimerEvent: {}
+[36.050676] (-) TimerEvent: {}
+[36.151616] (-) TimerEvent: {}
+[36.252655] (-) TimerEvent: {}
+[36.359257] (-) TimerEvent: {}
+[36.464153] (-) TimerEvent: {}
+[36.570836] (-) TimerEvent: {}
+[36.672219] (-) TimerEvent: {}
+[36.773379] (-) TimerEvent: {}
+[36.874500] (-) TimerEvent: {}
+[36.975826] (-) TimerEvent: {}
+[37.077477] (-) TimerEvent: {}
+[37.178401] (-) TimerEvent: {}
+[37.279224] (-) TimerEvent: {}
+[37.380160] (-) TimerEvent: {}
+[37.481357] (-) TimerEvent: {}
+[37.582310] (-) TimerEvent: {}
+[37.683590] (-) TimerEvent: {}
+[37.785084] (-) TimerEvent: {}
+[37.886922] (-) TimerEvent: {}
+[37.987650] (-) TimerEvent: {}
+[38.088429] (-) TimerEvent: {}
+[38.189223] (-) TimerEvent: {}
+[38.290522] (-) TimerEvent: {}
+[38.391975] (-) TimerEvent: {}
+[38.493099] (-) TimerEvent: {}
+[38.594315] (-) TimerEvent: {}
+[38.700653] (-) TimerEvent: {}
+[38.806276] (-) TimerEvent: {}
+[38.909406] (-) TimerEvent: {}
+[39.010586] (-) TimerEvent: {}
+[39.111809] (-) TimerEvent: {}
+[39.213122] (-) TimerEvent: {}
+[39.319094] (-) TimerEvent: {}
+[39.425420] (-) TimerEvent: {}
+[39.527123] (-) TimerEvent: {}
+[39.633478] (-) TimerEvent: {}
+[39.734389] (-) TimerEvent: {}
+[39.840745] (-) TimerEvent: {}
+[39.947060] (-) TimerEvent: {}
+[40.051362] (-) TimerEvent: {}
+[40.156894] (-) TimerEvent: {}
+[40.258857] (-) TimerEvent: {}
+[40.365435] (-) TimerEvent: {}
+[40.471721] (-) TimerEvent: {}
+[40.573662] (-) TimerEvent: {}
+[40.680182] (-) TimerEvent: {}
+[40.783067] (-) TimerEvent: {}
+[40.889365] (-) TimerEvent: {}
+[40.992409] (-) TimerEvent: {}
+[41.098747] (-) TimerEvent: {}
+[41.204611] (-) TimerEvent: {}
+[41.308835] (-) TimerEvent: {}
+[41.410413] (-) TimerEvent: {}
+[41.511775] (-) TimerEvent: {}
+[41.613781] (-) TimerEvent: {}
+[41.720097] (-) TimerEvent: {}
+[41.824996] (-) TimerEvent: {}
+[41.926667] (-) TimerEvent: {}
+[42.028916] (-) TimerEvent: {}
+[42.129725] (-) TimerEvent: {}
+[42.230988] (-) TimerEvent: {}
+[42.331896] (-) TimerEvent: {}
+[42.432897] (-) TimerEvent: {}
+[42.533905] (-) TimerEvent: {}
+[42.634956] (-) TimerEvent: {}
+[42.736025] (-) TimerEvent: {}
+[42.837164] (-) TimerEvent: {}
+[42.938370] (-) TimerEvent: {}
+[43.039403] (-) TimerEvent: {}
+[43.140257] (-) TimerEvent: {}
+[43.241122] (-) TimerEvent: {}
+[43.341927] (-) TimerEvent: {}
+[43.442854] (-) TimerEvent: {}
+[43.543676] (-) TimerEvent: {}
+[43.644765] (-) TimerEvent: {}
+[43.745898] (-) TimerEvent: {}
+[43.851593] (-) TimerEvent: {}
+[43.957903] (-) TimerEvent: {}
+[44.061488] (-) TimerEvent: {}
+[44.167847] (-) TimerEvent: {}
+[44.268493] (-) TimerEvent: {}
+[44.371165] (-) TimerEvent: {}
+[44.477617] (-) TimerEvent: {}
+[44.582269] (-) TimerEvent: {}
+[44.683168] (-) TimerEvent: {}
+[44.784120] (-) TimerEvent: {}
+[44.885281] (-) TimerEvent: {}
+[44.986415] (-) TimerEvent: {}
+[45.087311] (-) TimerEvent: {}
+[45.193963] (-) TimerEvent: {}
+[45.300271] (-) TimerEvent: {}
+[45.401726] (-) TimerEvent: {}
+[45.503413] (-) TimerEvent: {}
+[45.605041] (-) TimerEvent: {}
+[45.706160] (-) TimerEvent: {}
+[45.807451] (-) TimerEvent: {}
+[45.908783] (-) TimerEvent: {}
+[46.009738] (-) TimerEvent: {}
+[46.110585] (-) TimerEvent: {}
+[46.211398] (-) TimerEvent: {}
+[46.312387] (-) TimerEvent: {}
+[46.413438] (-) TimerEvent: {}
+[46.515094] (-) TimerEvent: {}
+[46.616169] (-) TimerEvent: {}
+[46.717846] (-) TimerEvent: {}
+[46.818736] (-) TimerEvent: {}
+[46.919487] (-) TimerEvent: {}
+[47.020353] (-) TimerEvent: {}
+[47.121246] (-) TimerEvent: {}
+[47.222112] (-) TimerEvent: {}
+[47.323022] (-) TimerEvent: {}
+[47.424617] (-) TimerEvent: {}
+[47.525700] (-) TimerEvent: {}
+[47.626753] (-) TimerEvent: {}
+[47.727949] (-) TimerEvent: {}
+[47.829293] (-) TimerEvent: {}
+[47.930781] (-) TimerEvent: {}
+[48.031624] (-) TimerEvent: {}
+[48.132453] (-) TimerEvent: {}
+[48.233404] (-) TimerEvent: {}
+[48.334501] (-) TimerEvent: {}
+[48.435680] (-) TimerEvent: {}
+[48.536840] (-) TimerEvent: {}
+[48.638018] (-) TimerEvent: {}
+[48.739773] (-) TimerEvent: {}
+[48.841206] (-) TimerEvent: {}
+[48.942722] (-) TimerEvent: {}
+[49.044492] (-) TimerEvent: {}
+[49.146331] (-) TimerEvent: {}
+[49.252885] (-) TimerEvent: {}
+[49.359258] (-) TimerEvent: {}
+[49.462477] (-) TimerEvent: {}
+[49.568838] (-) TimerEvent: {}
+[49.672900] (-) TimerEvent: {}
+[49.779240] (-) TimerEvent: {}
+[49.880889] (-) TimerEvent: {}
+[49.982344] (-) TimerEvent: {}
+[50.083930] (-) TimerEvent: {}
+[50.185799] (-) TimerEvent: {}
+[50.286855] (-) TimerEvent: {}
+[50.388754] (-) TimerEvent: {}
+[50.494732] (-) TimerEvent: {}
+[50.601143] (-) TimerEvent: {}
+[50.706908] (-) TimerEvent: {}
+[50.813214] (-) TimerEvent: {}
+[50.916261] (-) TimerEvent: {}
+[51.022863] (-) TimerEvent: {}
+[51.127944] (-) TimerEvent: {}
+[51.228857] (-) TimerEvent: {}
+[51.329913] (-) TimerEvent: {}
+[51.430780] (-) TimerEvent: {}
+[51.532186] (-) TimerEvent: {}
+[51.633442] (-) TimerEvent: {}
+[51.735054] (-) TimerEvent: {}
+[51.836400] (-) TimerEvent: {}
+[51.937372] (-) TimerEvent: {}
+[52.038086] (-) TimerEvent: {}
+[52.144425] (-) TimerEvent: {}
+[52.248803] (-) TimerEvent: {}
+[52.354714] (-) TimerEvent: {}
+[52.456870] (-) TimerEvent: {}
+[52.562718] (-) TimerEvent: {}
+[52.668601] (-) TimerEvent: {}
+[52.774222] (-) TimerEvent: {}
+[52.880055] (-) TimerEvent: {}
+[52.983519] (-) TimerEvent: {}
+[53.084986] (-) TimerEvent: {}
+[53.185930] (-) TimerEvent: {}
+[53.287598] (-) TimerEvent: {}
+[53.393454] (-) TimerEvent: {}
+[53.497379] (-) TimerEvent: {}
+[53.603263] (-) TimerEvent: {}
+[53.704794] (-) TimerEvent: {}
+[53.810646] (-) TimerEvent: {}
+[53.916347] (-) TimerEvent: {}
+[54.021476] (-) TimerEvent: {}
+[54.122954] (-) TimerEvent: {}
+[54.225467] (-) TimerEvent: {}
+[54.331349] (-) TimerEvent: {}
+[54.437192] (-) TimerEvent: {}
+[54.543036] (-) TimerEvent: {}
+[54.648854] (-) TimerEvent: {}
+[54.752705] (-) TimerEvent: {}
+[54.853909] (-) TimerEvent: {}
+[54.955055] (-) TimerEvent: {}
+[55.061011] (-) TimerEvent: {}
+[55.162337] (-) TimerEvent: {}
+[55.263392] (-) TimerEvent: {}
+[55.364308] (-) TimerEvent: {}
+[55.465862] (-) TimerEvent: {}
+[55.567668] (-) TimerEvent: {}
+[55.673503] (-) TimerEvent: {}
+[55.778417] (-) TimerEvent: {}
+[55.884234] (-) TimerEvent: {}
+[55.985394] (-) TimerEvent: {}
+[56.086684] (-) TimerEvent: {}
+[56.192693] (-) TimerEvent: {}
+[56.293935] (-) TimerEvent: {}
+[56.395263] (-) TimerEvent: {}
+[56.496833] (-) TimerEvent: {}
+[56.597540] (-) TimerEvent: {}
+[56.698104] (-) TimerEvent: {}
+[56.798871] (-) TimerEvent: {}
+[56.899664] (-) TimerEvent: {}
+[57.000370] (-) TimerEvent: {}
+[57.101707] (-) TimerEvent: {}
+[57.202569] (-) TimerEvent: {}
+[57.304159] (-) TimerEvent: {}
+[57.405572] (-) TimerEvent: {}
+[57.507080] (-) TimerEvent: {}
+[57.607917] (-) TimerEvent: {}
+[57.708748] (-) TimerEvent: {}
+[57.809613] (-) TimerEvent: {}
+[57.910544] (-) TimerEvent: {}
+[58.011742] (-) TimerEvent: {}
+[58.117558] (-) TimerEvent: {}
+[58.223516] (-) TimerEvent: {}
+[58.325202] (-) TimerEvent: {}
+[58.426293] (-) TimerEvent: {}
+[58.527394] (-) TimerEvent: {}
+[58.628468] (-) TimerEvent: {}
+[58.729730] (-) TimerEvent: {}
+[58.831061] (-) TimerEvent: {}
+[58.932376] (-) TimerEvent: {}
+[59.033802] (-) TimerEvent: {}
+[59.134818] (-) TimerEvent: {}
+[59.235830] (-) TimerEvent: {}
+[59.337223] (-) TimerEvent: {}
+[59.438010] (-) TimerEvent: {}
+[59.538736] (-) TimerEvent: {}
+[59.639498] (-) TimerEvent: {}
+[59.740253] (-) TimerEvent: {}
+[59.841111] (-) TimerEvent: {}
+[59.942425] (-) TimerEvent: {}
+[60.043646] (-) TimerEvent: {}
+[60.145063] (-) TimerEvent: {}
+[60.246500] (-) TimerEvent: {}
+[60.347503] (-) TimerEvent: {}
+[60.448392] (-) TimerEvent: {}
+[60.549201] (-) TimerEvent: {}
+[60.650100] (-) TimerEvent: {}
+[60.751103] (-) TimerEvent: {}
+[60.852346] (-) TimerEvent: {}
+[60.953918] (-) TimerEvent: {}
+[61.055189] (-) TimerEvent: {}
+[61.156466] (-) TimerEvent: {}
+[61.257110] (-) TimerEvent: {}
+[61.362993] (-) TimerEvent: {}
+[61.465693] (-) TimerEvent: {}
+[61.571662] (-) TimerEvent: {}
+[61.677561] (-) TimerEvent: {}
+[61.778523] (-) TimerEvent: {}
+[61.879305] (-) TimerEvent: {}
+[61.983494] (-) TimerEvent: {}
+[62.084668] (-) TimerEvent: {}
+[62.186287] (-) TimerEvent: {}
+[62.287439] (-) TimerEvent: {}
+[62.388144] (-) TimerEvent: {}
+[62.488818] (-) TimerEvent: {}
+[62.589514] (-) TimerEvent: {}
+[62.690183] (-) TimerEvent: {}
+[62.791146] (-) TimerEvent: {}
+[62.892433] (-) TimerEvent: {}
+[62.994942] (-) TimerEvent: {}
+[63.095933] (-) TimerEvent: {}
+[63.196975] (-) TimerEvent: {}
+[63.298109] (-) TimerEvent: {}
+[63.398944] (-) TimerEvent: {}
+[63.499623] (-) TimerEvent: {}
+[63.600551] (-) TimerEvent: {}
+[63.701457] (-) TimerEvent: {}
+[63.802345] (-) TimerEvent: {}
+[63.903212] (-) TimerEvent: {}
+[64.004145] (-) TimerEvent: {}
+[64.109980] (-) TimerEvent: {}
+[64.214201] (-) TimerEvent: {}
+[64.315451] (-) TimerEvent: {}
+[64.416701] (-) TimerEvent: {}
+[64.519869] (-) TimerEvent: {}
+[64.625755] (-) TimerEvent: {}
+[64.726901] (-) TimerEvent: {}
+[64.830648] (-) TimerEvent: {}
+[64.936547] (-) TimerEvent: {}
+[65.037203] (-) TimerEvent: {}
+[65.137891] (-) TimerEvent: {}
+[65.240794] (-) TimerEvent: {}
+[65.341691] (-) TimerEvent: {}
+[65.443114] (-) TimerEvent: {}
+[65.544519] (-) TimerEvent: {}
+[65.645841] (-) TimerEvent: {}
+[65.747298] (-) TimerEvent: {}
+[65.848024] (-) TimerEvent: {}
+[65.948831] (-) TimerEvent: {}
+[66.049672] (-) TimerEvent: {}
+[66.155660] (-) TimerEvent: {}
+[66.261580] (-) TimerEvent: {}
+[66.363657] (-) TimerEvent: {}
+[66.469689] (-) TimerEvent: {}
+[66.575628] (-) TimerEvent: {}
+[66.681514] (-) TimerEvent: {}
+[66.782545] (-) TimerEvent: {}
+[66.883558] (-) TimerEvent: {}
+[66.984583] (-) TimerEvent: {}
+[67.085879] (-) TimerEvent: {}
+[67.187100] (-) TimerEvent: {}
+[67.288225] (-) TimerEvent: {}
+[67.388975] (-) TimerEvent: {}
+[67.489901] (-) TimerEvent: {}
+[67.591153] (-) TimerEvent: {}
+[67.692261] (-) TimerEvent: {}
+[67.793288] (-) TimerEvent: {}
+[67.894423] (-) TimerEvent: {}
+[67.995552] (-) TimerEvent: {}
+[68.097435] (-) TimerEvent: {}
+[68.203479] (-) TimerEvent: {}
+[68.309470] (-) TimerEvent: {}
+[68.415426] (-) TimerEvent: {}
+[68.521270] (-) TimerEvent: {}
+[68.627155] (-) TimerEvent: {}
+[68.733060] (-) TimerEvent: {}
+[68.838955] (-) TimerEvent: {}
+[68.944987] (-) TimerEvent: {}
+[69.051157] (-) TimerEvent: {}
+[69.156995] (-) TimerEvent: {}
+[69.262981] (-) TimerEvent: {}
+[69.368822] (-) TimerEvent: {}
+[69.474721] (-) TimerEvent: {}
+[69.580598] (-) TimerEvent: {}
+[69.686778] (-) TimerEvent: {}
+[69.792631] (-) TimerEvent: {}
+[69.898597] (-) TimerEvent: {}
+[69.999346] (-) TimerEvent: {}
+[70.100372] (-) TimerEvent: {}
+[70.201431] (-) TimerEvent: {}
+[70.302797] (-) TimerEvent: {}
+[70.403693] (-) TimerEvent: {}
+[70.504988] (-) TimerEvent: {}
+[70.606685] (-) TimerEvent: {}
+[70.707486] (-) TimerEvent: {}
+[70.808265] (-) TimerEvent: {}
+[70.908942] (-) TimerEvent: {}
+[71.009747] (-) TimerEvent: {}
+[71.110617] (-) TimerEvent: {}
+[71.212090] (-) TimerEvent: {}
+[71.315184] (-) TimerEvent: {}
+[71.421067] (-) TimerEvent: {}
+[71.526905] (-) TimerEvent: {}
+[71.627543] (-) TimerEvent: {}
+[71.728243] (-) TimerEvent: {}
+[71.829006] (-) TimerEvent: {}
+[71.929769] (-) TimerEvent: {}
+[72.030940] (-) TimerEvent: {}
+[72.136884] (-) TimerEvent: {}
+[72.242799] (-) TimerEvent: {}
+[72.348692] (-) TimerEvent: {}
+[72.455017] (-) TimerEvent: {}
+[72.560902] (-) TimerEvent: {}
+[72.666769] (-) TimerEvent: {}
+[72.772731] (-) TimerEvent: {}
+[72.873731] (-) TimerEvent: {}
+[72.975279] (-) TimerEvent: {}
+[73.076703] (-) TimerEvent: {}
+[73.177379] (-) TimerEvent: {}
+[73.278222] (-) TimerEvent: {}
+[73.379080] (-) TimerEvent: {}
+[73.480021] (-) TimerEvent: {}
+[73.581186] (-) TimerEvent: {}
+[73.682523] (-) TimerEvent: {}
+[73.783824] (-) TimerEvent: {}
+[73.885269] (-) TimerEvent: {}
+[73.986636] (-) TimerEvent: {}
+[74.087354] (-) TimerEvent: {}
+[74.193298] (-) TimerEvent: {}
+[74.294617] (-) TimerEvent: {}
+[74.395879] (-) TimerEvent: {}
+[74.501211] (-) TimerEvent: {}
+[74.602584] (-) TimerEvent: {}
+[74.704072] (-) TimerEvent: {}
+[74.805321] (-) TimerEvent: {}
+[74.906591] (-) TimerEvent: {}
+[75.007368] (-) TimerEvent: {}
+[75.108121] (-) TimerEvent: {}
+[75.208878] (-) TimerEvent: {}
+[75.309736] (-) TimerEvent: {}
+[75.410536] (-) TimerEvent: {}
+[75.511932] (-) TimerEvent: {}
+[75.613157] (-) TimerEvent: {}
+[75.719047] (-) TimerEvent: {}
+[75.824892] (-) TimerEvent: {}
+[75.926628] (-) TimerEvent: {}
+[76.027884] (-) TimerEvent: {}
+[76.128539] (-) TimerEvent: {}
+[76.229357] (-) TimerEvent: {}
+[76.330177] (-) TimerEvent: {}
+[76.431124] (-) TimerEvent: {}
+[76.531930] (-) TimerEvent: {}
+[76.632903] (-) TimerEvent: {}
+[76.733817] (-) TimerEvent: {}
+[76.834931] (-) TimerEvent: {}
+[76.935975] (-) TimerEvent: {}
+[77.037087] (-) TimerEvent: {}
+[77.137885] (-) TimerEvent: {}
+[77.239747] (-) TimerEvent: {}
+[77.345598] (-) TimerEvent: {}
+[77.451491] (-) TimerEvent: {}
+[77.557445] (-) TimerEvent: {}
+[77.663048] (-) TimerEvent: {}
+[77.764137] (-) TimerEvent: {}
+[77.865157] (-) TimerEvent: {}
+[77.966553] (-) TimerEvent: {}
+[78.072509] (-) TimerEvent: {}
+[78.178352] (-) TimerEvent: {}
+[78.284246] (-) TimerEvent: {}
+[78.390288] (-) TimerEvent: {}
+[78.496192] (-) TimerEvent: {}
+[78.599529] (-) TimerEvent: {}
+[78.705003] (-) TimerEvent: {}
+[78.810865] (-) TimerEvent: {}
+[78.916747] (-) TimerEvent: {}
+[79.022751] (-) TimerEvent: {}
+[79.128851] (-) TimerEvent: {}
+[79.234748] (-) TimerEvent: {}
+[79.340702] (-) TimerEvent: {}
+[79.446686] (-) TimerEvent: {}
+[79.552636] (-) TimerEvent: {}
+[79.656766] (-) TimerEvent: {}
+[79.762113] (-) TimerEvent: {}
+[79.867955] (-) TimerEvent: {}
+[79.973767] (-) TimerEvent: {}
+[80.079586] (-) TimerEvent: {}
+[80.185431] (-) TimerEvent: {}
+[80.291298] (-) TimerEvent: {}
+[80.397247] (-) TimerEvent: {}
+[80.499274] (-) TimerEvent: {}
+[80.605151] (-) TimerEvent: {}
+[80.710076] (-) TimerEvent: {}
+[80.815857] (-) TimerEvent: {}
+[80.921847] (-) TimerEvent: {}
+[81.027943] (-) TimerEvent: {}
+[81.133854] (-) TimerEvent: {}
+[81.239890] (-) TimerEvent: {}
+[81.345835] (-) TimerEvent: {}
+[81.451738] (-) TimerEvent: {}
+[81.557810] (-) TimerEvent: {}
+[81.663833] (-) TimerEvent: {}
+[81.769264] (-) TimerEvent: {}
+[81.874738] (-) TimerEvent: {}
+[81.980678] (-) TimerEvent: {}
+[82.081972] (-) TimerEvent: {}
+[82.187859] (-) TimerEvent: {}
+[82.288890] (-) TimerEvent: {}
+[82.394785] (-) TimerEvent: {}
+[82.500719] (-) TimerEvent: {}
+[82.604172] (-) TimerEvent: {}
+[82.710284] (-) TimerEvent: {}
+[82.812234] (-) TimerEvent: {}
+[82.917315] (-) TimerEvent: {}
+[83.023237] (-) TimerEvent: {}
+[83.128524] (-) TimerEvent: {}
+[83.234387] (-) TimerEvent: {}
+[83.337285] (-) TimerEvent: {}
+[83.443236] (-) TimerEvent: {}
+[83.545963] (-) TimerEvent: {}
+[83.647615] (-) TimerEvent: {}
+[83.748649] (-) TimerEvent: {}
+[83.849791] (-) TimerEvent: {}
+[83.950820] (-) TimerEvent: {}
+[84.051702] (-) TimerEvent: {}
+[84.152685] (-) TimerEvent: {}
+[84.253672] (-) TimerEvent: {}
+[84.354861] (-) TimerEvent: {}
+[84.455967] (-) TimerEvent: {}
+[84.556968] (-) TimerEvent: {}
+[84.658076] (-) TimerEvent: {}
+[84.759147] (-) TimerEvent: {}
+[84.859961] (-) TimerEvent: {}
+[84.960961] (-) TimerEvent: {}
+[85.062387] (-) TimerEvent: {}
+[85.163420] (-) TimerEvent: {}
+[85.264495] (-) TimerEvent: {}
+[85.365717] (-) TimerEvent: {}
+[85.466822] (-) TimerEvent: {}
+[85.568069] (-) TimerEvent: {}
+[85.669241] (-) TimerEvent: {}
+[85.770247] (-) TimerEvent: {}
+[85.871209] (-) TimerEvent: {}
+[85.972403] (-) TimerEvent: {}
+[86.073566] (-) TimerEvent: {}
+[86.174758] (-) TimerEvent: {}
+[86.280676] (-) TimerEvent: {}
+[86.382031] (-) TimerEvent: {}
+[86.488186] (-) TimerEvent: {}
+[86.594276] (-) TimerEvent: {}
+[86.698265] (-) TimerEvent: {}
+[86.804019] (-) TimerEvent: {}
+[86.905885] (-) TimerEvent: {}
+[87.011734] (-) TimerEvent: {}
+[87.117710] (-) TimerEvent: {}
+[87.222772] (-) TimerEvent: {}
+[87.327864] (-) TimerEvent: {}
+[87.430627] (-) TimerEvent: {}
+[87.536599] (-) TimerEvent: {}
+[87.642496] (-) TimerEvent: {}
+[87.748345] (-) TimerEvent: {}
+[87.854397] (-) TimerEvent: {}
+[87.957449] (-) TimerEvent: {}
+[88.063307] (-) TimerEvent: {}
+[88.164739] (-) TimerEvent: {}
+[88.270603] (-) TimerEvent: {}
+[88.376240] (-) TimerEvent: {}
+[88.480928] (-) TimerEvent: {}
+[88.586803] (-) TimerEvent: {}
+[88.689308] (-) TimerEvent: {}
+[88.791801] (-) TimerEvent: {}
+[88.897918] (-) TimerEvent: {}
+[89.001118] (-) TimerEvent: {}
+[89.107029] (-) TimerEvent: {}
+[89.210327] (-) TimerEvent: {}
+[89.316274] (-) TimerEvent: {}
+[89.417331] (-) TimerEvent: {}
+[89.522769] (-) TimerEvent: {}
+[89.628953] (-) TimerEvent: {}
+[89.733139] (-) TimerEvent: {}
+[89.839261] (-) TimerEvent: {}
+[89.941055] (-) TimerEvent: {}
+[90.042076] (-) TimerEvent: {}
+[90.144055] (-) TimerEvent: {}
+[90.248696] (-) TimerEvent: {}
+[90.354521] (-) TimerEvent: {}
+[90.455709] (-) TimerEvent: {}
+[90.561014] (-) TimerEvent: {}
+[90.666865] (-) TimerEvent: {}
+[90.772869] (-) TimerEvent: {}
+[90.873619] (-) TimerEvent: {}
+[90.979510] (-) TimerEvent: {}
+[91.082896] (-) TimerEvent: {}
+[91.188920] (-) TimerEvent: {}
+[91.294867] (-) TimerEvent: {}
+[91.400824] (-) TimerEvent: {}
+[91.502081] (-) TimerEvent: {}
+[91.603437] (-) TimerEvent: {}
+[91.704808] (-) TimerEvent: {}
+[91.806124] (-) TimerEvent: {}
+[91.906943] (-) TimerEvent: {}
+[92.007810] (-) TimerEvent: {}
+[92.108629] (-) TimerEvent: {}
+[92.209419] (-) TimerEvent: {}
+[92.310194] (-) TimerEvent: {}
+[92.411416] (-) TimerEvent: {}
+[92.509380] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[92.511766] (-) TimerEvent: {}
+[92.522016] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[92.523693] (arm_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[92.612475] (-) TimerEvent: {}
+[92.713665] (-) TimerEvent: {}
+[92.814656] (-) TimerEvent: {}
+[92.915784] (-) TimerEvent: {}
+[93.017033] (-) TimerEvent: {}
+[93.117777] (-) TimerEvent: {}
+[93.218564] (-) TimerEvent: {}
+[93.319766] (-) TimerEvent: {}
+[93.420971] (-) TimerEvent: {}
+[93.522223] (-) TimerEvent: {}
+[93.623456] (-) TimerEvent: {}
+[93.724733] (-) TimerEvent: {}
+[93.825676] (-) TimerEvent: {}
+[93.926835] (-) TimerEvent: {}
+[94.027617] (-) TimerEvent: {}
+[94.128372] (-) TimerEvent: {}
+[94.229292] (-) TimerEvent: {}
+[94.334775] (-) TimerEvent: {}
+[94.436402] (-) TimerEvent: {}
+[94.542306] (-) TimerEvent: {}
+[94.648173] (-) TimerEvent: {}
+[94.754079] (-) TimerEvent: {}
+[94.857736] (-) TimerEvent: {}
+[94.963150] (-) TimerEvent: {}
+[95.068971] (-) TimerEvent: {}
+[95.170203] (-) TimerEvent: {}
+[95.271378] (-) TimerEvent: {}
+[95.377275] (-) TimerEvent: {}
+[95.482640] (-) TimerEvent: {}
+[95.588541] (-) TimerEvent: {}
+[95.694276] (-) TimerEvent: {}
+[95.795306] (-) TimerEvent: {}
+[95.896241] (-) TimerEvent: {}
+[95.997133] (-) TimerEvent: {}
+[96.099983] (-) TimerEvent: {}
+[96.204116] (-) TimerEvent: {}
+[96.310583] (-) TimerEvent: {}
+[96.416576] (-) TimerEvent: {}
+[96.522378] (-) TimerEvent: {}
+[96.623842] (-) TimerEvent: {}
+[96.729632] (-) TimerEvent: {}
+[96.835584] (-) TimerEvent: {}
+[96.936800] (-) TimerEvent: {}
+[97.040510] (-) TimerEvent: {}
+[97.146367] (-) TimerEvent: {}
+[97.252220] (-) TimerEvent: {}
+[97.296353] (arm_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[97.353242] (-) TimerEvent: {}
+[97.454721] (-) TimerEvent: {}
+[97.556000] (-) TimerEvent: {}
+[97.657369] (-) TimerEvent: {}
+[97.758375] (-) TimerEvent: {}
+[97.859141] (-) TimerEvent: {}
+[97.959998] (-) TimerEvent: {}
+[98.061096] (-) TimerEvent: {}
+[98.162066] (-) TimerEvent: {}
+[98.263025] (-) TimerEvent: {}
+[98.363998] (-) TimerEvent: {}
+[98.465388] (-) TimerEvent: {}
+[98.566945] (-) TimerEvent: {}
+[98.667838] (-) TimerEvent: {}
+[98.768856] (-) TimerEvent: {}
+[98.873823] (-) TimerEvent: {}
+[98.979637] (-) TimerEvent: {}
+[99.085423] (-) TimerEvent: {}
+[99.191357] (-) TimerEvent: {}
+[99.296952] (-) TimerEvent: {}
+[99.397941] (-) TimerEvent: {}
+[99.498832] (-) TimerEvent: {}
+[99.599695] (-) TimerEvent: {}
+[99.700537] (-) TimerEvent: {}
+[99.801449] (-) TimerEvent: {}
+[99.902565] (-) TimerEvent: {}
+[100.003584] (-) TimerEvent: {}
+[100.104586] (-) TimerEvent: {}
+[100.206019] (-) TimerEvent: {}
+[100.307003] (-) TimerEvent: {}
+[100.407908] (-) TimerEvent: {}
+[100.513846] (-) TimerEvent: {}
+[100.619702] (-) TimerEvent: {}
+[100.725537] (-) TimerEvent: {}
+[100.831310] (-) TimerEvent: {}
+[100.937179] (-) TimerEvent: {}
+[101.043083] (-) TimerEvent: {}
+[101.144125] (-) TimerEvent: {}
+[101.245752] (-) TimerEvent: {}
+[101.347025] (-) TimerEvent: {}
+[101.448565] (-) TimerEvent: {}
+[101.554534] (-) TimerEvent: {}
+[101.660544] (-) TimerEvent: {}
+[101.766330] (-) TimerEvent: {}
+[101.872286] (-) TimerEvent: {}
+[101.976300] (-) TimerEvent: {}
+[102.082275] (-) TimerEvent: {}
+[102.089899] (arm_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[102.102926] (arm_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[102.149026] (arm_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[102.182808] (-) TimerEvent: {}
+[102.248698] (arm_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[102.278962] (arm_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[102.283219] (-) TimerEvent: {}
+[102.358000] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[102.359288] (arm_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[102.383895] (-) TimerEvent: {}
+[102.485085] (-) TimerEvent: {}
+[102.586599] (-) TimerEvent: {}
+[102.687163] (-) TimerEvent: {}
+[102.787778] (-) TimerEvent: {}
+[102.888737] (-) TimerEvent: {}
+[102.989582] (-) TimerEvent: {}
+[103.090598] (-) TimerEvent: {}
+[103.191590] (-) TimerEvent: {}
+[103.292494] (-) TimerEvent: {}
+[103.393452] (-) TimerEvent: {}
+[103.494450] (-) TimerEvent: {}
+[103.595782] (-) TimerEvent: {}
+[103.697229] (-) TimerEvent: {}
+[103.798054] (-) TimerEvent: {}
+[103.899028] (-) TimerEvent: {}
+[104.000012] (-) TimerEvent: {}
+[104.100974] (-) TimerEvent: {}
+[104.201835] (-) TimerEvent: {}
+[104.302814] (-) TimerEvent: {}
+[104.403771] (-) TimerEvent: {}
+[104.504994] (-) TimerEvent: {}
+[104.606522] (-) TimerEvent: {}
+[104.707335] (-) TimerEvent: {}
+[104.808081] (-) TimerEvent: {}
+[104.909021] (-) TimerEvent: {}
+[105.009985] (-) TimerEvent: {}
+[105.110812] (-) TimerEvent: {}
+[105.211852] (-) TimerEvent: {}
+[105.312793] (-) TimerEvent: {}
+[105.414134] (-) TimerEvent: {}
+[105.515527] (-) TimerEvent: {}
+[105.616906] (-) TimerEvent: {}
+[105.717770] (-) TimerEvent: {}
+[105.818661] (-) TimerEvent: {}
+[105.919421] (-) TimerEvent: {}
+[106.020156] (-) TimerEvent: {}
+[106.123216] (-) TimerEvent: {}
+[106.229085] (-) TimerEvent: {}
+[106.329776] (-) TimerEvent: {}
+[106.435634] (-) TimerEvent: {}
+[106.541471] (-) TimerEvent: {}
+[106.642845] (-) TimerEvent: {}
+[106.748771] (-) TimerEvent: {}
+[106.850087] (-) TimerEvent: {}
+[106.956048] (-) TimerEvent: {}
+[107.062134] (-) TimerEvent: {}
+[107.158000] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[107.162542] (-) TimerEvent: {}
+[107.171190] (arm_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[107.205079] (arm_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[107.265816] (-) TimerEvent: {}
+[107.294248] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[107.297310] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[107.299133] (arm_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[107.300448] (arm_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[107.300716] (arm_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[107.366848] (-) TimerEvent: {}
+[107.467569] (-) TimerEvent: {}
+[107.568308] (-) TimerEvent: {}
+[107.655141] (arm_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[107.657933] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[107.659441] (arm_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[107.660611] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[107.667310] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[107.668296] (arm_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[107.668520] (-) TimerEvent: {}
+[107.771900] (-) TimerEvent: {}
+[107.874204] (-) TimerEvent: {}
+[107.979401] (-) TimerEvent: {}
+[108.081896] (-) TimerEvent: {}
+[108.186043] (-) TimerEvent: {}
+[108.291959] (-) TimerEvent: {}
+[108.394677] (-) TimerEvent: {}
+[108.498357] (-) TimerEvent: {}
+[108.604320] (-) TimerEvent: {}
+[108.705488] (-) TimerEvent: {}
+[108.811446] (-) TimerEvent: {}
+[108.916295] (-) TimerEvent: {}
+[109.021780] (-) TimerEvent: {}
+[109.127406] (-) TimerEvent: {}
+[109.228061] (-) TimerEvent: {}
+[109.333978] (-) TimerEvent: {}
+[109.438404] (-) TimerEvent: {}
+[109.544276] (-) TimerEvent: {}
+[109.646167] (-) TimerEvent: {}
+[109.749461] (-) TimerEvent: {}
+[109.855341] (-) TimerEvent: {}
+[109.961353] (-) TimerEvent: {}
+[110.067237] (-) TimerEvent: {}
+[110.173297] (-) TimerEvent: {}
+[110.279252] (-) TimerEvent: {}
+[110.380108] (-) TimerEvent: {}
+[110.483599] (-) TimerEvent: {}
+[110.589734] (-) TimerEvent: {}
+[110.695789] (-) TimerEvent: {}
+[110.801675] (-) TimerEvent: {}
+[110.907676] (-) TimerEvent: {}
+[111.013607] (-) TimerEvent: {}
+[111.119524] (-) TimerEvent: {}
+[111.225429] (-) TimerEvent: {}
+[111.331342] (-) TimerEvent: {}
+[111.436982] (-) TimerEvent: {}
+[111.542919] (-) TimerEvent: {}
+[111.648893] (-) TimerEvent: {}
+[111.754778] (-) TimerEvent: {}
+[111.860674] (-) TimerEvent: {}
+[111.965137] (-) TimerEvent: {}
+[112.071083] (-) TimerEvent: {}
+[112.177054] (-) TimerEvent: {}
+[112.283130] (-) TimerEvent: {}
+[112.389079] (-) TimerEvent: {}
+[112.490897] (-) TimerEvent: {}
+[112.596845] (-) TimerEvent: {}
+[112.702912] (-) TimerEvent: {}
+[112.808889] (-) TimerEvent: {}
+[112.909845] (-) TimerEvent: {}
+[113.015947] (-) TimerEvent: {}
+[113.120457] (-) TimerEvent: {}
+[113.184154] (arm_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[113.218163] (arm_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[113.220793] (-) TimerEvent: {}
+[113.316109] (arm_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[113.321268] (-) TimerEvent: {}
+[113.347207] (arm_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[113.421729] (-) TimerEvent: {}
+[113.425394] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[113.426169] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[113.427231] (arm_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[113.438093] (arm_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[113.522733] (-) TimerEvent: {}
+[113.609605] (arm_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[113.623735] (-) TimerEvent: {}
+[113.634373] (arm_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[113.643864] (arm_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/shrey/ros2_ws/build/arm_gazebo\n'}
+[113.665456] (arm_gazebo) CommandEnded: {'returncode': 0}
+[113.667389] (arm_gazebo) JobProgress: {'identifier': 'arm_gazebo', 'progress': 'build'}
+[113.671124] (arm_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shrey/ros2_ws/build/arm_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/shrey/ros2_ws/build/arm_gazebo', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_gazebo'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[113.726698] (-) TimerEvent: {}
+[113.777793] (arm_gazebo) CommandEnded: {'returncode': 0}
+[113.779507] (arm_gazebo) JobProgress: {'identifier': 'arm_gazebo', 'progress': 'install'}
+[113.782767] (arm_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shrey/ros2_ws/build/arm_gazebo'], 'cwd': '/home/shrey/ros2_ws/build/arm_gazebo', 'env': OrderedDict([('USER', 'shrey'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/shrey'), ('OLDPWD', '/home/shrey/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shrey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shrey'), ('NAME', 'LAPTOP-NF81MTHA'), ('WSL_INTEROP', '/run/WSL/394_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/bin:/usr/bin:/usr/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/oraclexe/app/oracle/product/10.2.0/server/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/shrey/Documents/A13/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/apache-maven-3.9.9/bin:/mnt/c/Users/shrey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shrey/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/MinGW/bin:/mnt/c/Users/shrey/Documents/mongosh-1.10.5-win32-x64/mongosh-1.10.5-win32-x64/bin:/mnt/c/Users/shrey/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.3.3/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin:/snap/bin:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11:/usr/bin:/usr/lib/x86_64-linux-gnu/gazebo-11'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/shrey/ros2_ws/build/arm_gazebo'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shrey/ros2_ws/install/arm_controller:/home/shrey/ros2_ws/install/arm_gazebo:/home/shrey/ros2_ws/install/arm_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[113.801627] (arm_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[113.803613] (arm_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[113.805542] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/launch/arm_world.launch.py\n'}
+[113.825624] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/package_run_dependencies/arm_gazebo\n'}
+[113.827037] (-) TimerEvent: {}
+[113.846392] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/parent_prefix_path/arm_gazebo\n'}
+[113.869282] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.sh\n'}
+[113.889541] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.dsv\n'}
+[113.911494] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.sh\n'}
+[113.928067] (-) TimerEvent: {}
+[113.934119] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.dsv\n'}
+[113.955472] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.bash\n'}
+[113.977670] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.sh\n'}
+[113.996953] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.zsh\n'}
+[114.018540] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.dsv\n'}
+[114.028821] (-) TimerEvent: {}
+[114.037966] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.dsv\n'}
+[114.059410] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/packages/arm_gazebo\n'}
+[114.083366] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig.cmake\n'}
+[114.104496] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig-version.cmake\n'}
+[114.122979] (arm_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.xml\n'}
+[114.129338] (-) TimerEvent: {}
+[114.146076] (arm_gazebo) CommandEnded: {'returncode': 0}
+[114.180616] (arm_gazebo) JobEnded: {'identifier': 'arm_gazebo', 'rc': 0}
+[114.184490] (-) EventReactorShutdown: {}

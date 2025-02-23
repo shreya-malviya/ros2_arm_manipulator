@@ -1,0 +1,22 @@
+[0.078s] Invoking command in '/home/shrey/ros2_ws/build/arm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_gazebo -- -j12 -l12
+[0.201s] Invoked command in '/home/shrey/ros2_ws/build/arm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_gazebo -- -j12 -l12
+[0.207s] Invoking command in '/home/shrey/ros2_ws/build/arm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_gazebo
+[0.237s] -- Install configuration: ""
+[0.238s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/launch
+[0.239s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/launch/arm_world.launch.py
+[0.240s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/package_run_dependencies/arm_gazebo
+[0.241s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/parent_prefix_path/arm_gazebo
+[0.242s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.dsv
+[0.243s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.sh
+[0.243s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.dsv
+[0.245s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.bash
+[0.245s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.sh
+[0.246s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.zsh
+[0.246s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.dsv
+[0.247s] -- Installing: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.dsv
+[0.253s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/packages/arm_gazebo
+[0.254s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig.cmake
+[0.254s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig-version.cmake
+[0.255s] -- Up-to-date: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.xml
+[0.270s] Invoked command in '/home/shrey/ros2_ws/build/arm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_gazebo

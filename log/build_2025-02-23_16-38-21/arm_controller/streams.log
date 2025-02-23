@@ -1,0 +1,64 @@
+[0.081s] Invoking command in '/home/shrey/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shrey/ros2_ws/src/arm_controller -DCMAKE_INSTALL_PREFIX=/home/shrey/ros2_ws/install/arm_controller
+[0.873s] -- The C compiler identification is GNU 11.4.0
+[2.694s] -- The CXX compiler identification is GNU 11.4.0
+[3.960s] -- Detecting C compiler ABI info
+[4.467s] -- Detecting C compiler ABI info - done
+[4.484s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.495s] -- Detecting C compile features
+[4.496s] -- Detecting C compile features - done
+[4.507s] -- Detecting CXX compiler ABI info
+[5.062s] -- Detecting CXX compiler ABI info - done
+[5.080s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.081s] -- Detecting CXX compile features
+[5.081s] -- Detecting CXX compile features - done
+[5.132s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.128s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.428s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[7.177s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.204s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.246s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.628s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.642s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.823s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[18.274s] -- Found FastRTPS: /opt/ros/humble/include  
+[27.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.944s] -- Looking for pthread.h
+[28.445s] -- Looking for pthread.h - found
+[28.446s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[28.968s] -- Found Threads: TRUE  
+[29.184s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[29.316s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[29.556s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[29.556s] -- Configured cppcheck include dirs: 
+[29.556s] -- Configured cppcheck exclude dirs and/or files: 
+[29.561s] -- Added test 'lint_cmake' to check CMake code style
+[29.567s] -- Added test 'uncrustify' to check C / C++ code style
+[29.567s] -- Configured uncrustify additional arguments: 
+[29.571s] -- Added test 'xmllint' to check XML markup files
+[29.577s] -- Configuring done
+[29.597s] -- Generating done
+[29.604s] -- Build files have been written to: /home/shrey/ros2_ws/build/arm_controller
+[29.622s] Invoked command in '/home/shrey/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shrey/ros2_ws/src/arm_controller -DCMAKE_INSTALL_PREFIX=/home/shrey/ros2_ws/install/arm_controller
+[29.628s] Invoking command in '/home/shrey/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_controller -- -j12 -l12
+[29.715s] Invoked command in '/home/shrey/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_controller -- -j12 -l12
+[29.719s] Invoking command in '/home/shrey/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_controller
+[29.735s] -- Install configuration: ""
+[29.748s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller
+[29.751s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller
+[29.752s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh
+[29.753s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv
+[29.753s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/path.sh
+[29.754s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/path.dsv
+[29.754s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.bash
+[29.754s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.sh
+[29.755s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.zsh
+[29.755s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.dsv
+[29.755s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/package.dsv
+[29.757s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/packages/arm_controller
+[29.758s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake
+[29.759s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake
+[29.760s] -- Installing: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/package.xml
+[29.766s] Invoked command in '/home/shrey/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_controller

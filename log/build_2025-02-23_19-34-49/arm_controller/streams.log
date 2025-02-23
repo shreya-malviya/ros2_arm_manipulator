@@ -1,0 +1,21 @@
+[0.033s] Invoking command in '/home/shrey/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_controller -- -j12 -l12
+[0.098s] Invoked command in '/home/shrey/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_controller -- -j12 -l12
+[0.114s] Invoking command in '/home/shrey/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_controller
+[0.124s] -- Install configuration: ""
+[0.125s] -- Execute custom install script
+[0.125s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller
+[0.126s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller
+[0.126s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv
+[0.127s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/path.sh
+[0.128s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/environment/path.dsv
+[0.131s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.bash
+[0.132s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.sh
+[0.133s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.zsh
+[0.133s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/local_setup.dsv
+[0.133s] -- Symlinking: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/package.dsv
+[0.147s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/ament_index/resource_index/packages/arm_controller
+[0.147s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake
+[0.147s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake
+[0.148s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_controller/share/arm_controller/package.xml
+[0.159s] Invoked command in '/home/shrey/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_controller

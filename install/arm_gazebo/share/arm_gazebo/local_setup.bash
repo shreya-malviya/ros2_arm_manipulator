@@ -1,0 +1,1 @@
+/home/shrey/ros2_ws/build/arm_gazebo/ament_cmake_environment_hooks/local_setup.bash

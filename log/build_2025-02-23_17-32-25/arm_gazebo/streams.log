@@ -1,0 +1,90 @@
+[0.077s] Invoking command in '/home/shrey/ros2_ws/build/arm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shrey/ros2_ws/src/arm_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrey/ros2_ws/install/arm_gazebo
+[0.178s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.596s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.081s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.093s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.127s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.403s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.413s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.293s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.608s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[8.730s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.741s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.767s] -- Searching for dependencies of ignition-math6
+[8.775s] -- Looking for OGRE...
+[8.790s] -- Found Ogre Ghadamon (1.9.0)
+[8.790s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.813s] -- Looking for OGRE_Paging...
+[8.814s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.814s] -- Looking for OGRE_Terrain...
+[8.815s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.816s] -- Looking for OGRE_Property...
+[8.816s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.816s] -- Looking for OGRE_RTShaderSystem...
+[8.816s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.817s] -- Looking for OGRE_Volume...
+[8.817s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.817s] -- Looking for OGRE_Overlay...
+[8.817s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[92.463s] -- Looking for ignition-math6 -- found version 6.15.1
+[92.475s] -- Looking for ignition-transport8 -- found version 8.2.1
+[92.477s] -- Searching for dependencies of ignition-transport8
+[97.250s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[102.043s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[102.056s] -- Checking for module 'libzmq >= 4'
+[102.103s] --   Found libzmq , version 4.3.4
+[102.202s] -- Checking for module 'uuid'
+[102.232s] --   Found uuid, version 2.37.2
+[102.311s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[102.313s] -- Searching for dependencies of ignition-msgs5
+[107.112s] -- Looking for ignition-math6 -- found version 6.15.1
+[107.125s] -- Checking for module 'tinyxml2'
+[107.158s] --   Found tinyxml2, version 9.0.0
+[107.248s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[107.251s] -- Looking for ignition-common3 -- found version 3.14.0
+[107.252s] -- Searching for dependencies of ignition-common3
+[107.254s] -- Looking for dlfcn.h - found
+[107.254s] -- Looking for libdl - found
+[107.609s] -- Searching for <ignition-common3> component [graphics]
+[107.611s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[107.613s] -- Searching for dependencies of ignition-common3-graphics
+[107.614s] -- Looking for ignition-math6 -- found version 6.15.1
+[107.621s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[107.622s] -- Searching for dependencies of ignition-fuel_tools4
+[113.138s] -- Checking for module 'jsoncpp'
+[113.172s] --   Found jsoncpp, version 1.9.5
+[113.269s] -- Checking for module 'libzip'
+[113.301s] --   Found libzip, version 1.7.3
+[113.379s] -- Looking for ignition-common3 -- found version 3.14.0
+[113.380s] -- Looking for ignition-math6 -- found version 6.15.1
+[113.381s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[113.391s] -- Gazebo version: 11.10
+[113.563s] -- Configuring done
+[113.588s] -- Generating done
+[113.597s] -- Build files have been written to: /home/shrey/ros2_ws/build/arm_gazebo
+[113.619s] Invoked command in '/home/shrey/ros2_ws/build/arm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shrey/ros2_ws/src/arm_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrey/ros2_ws/install/arm_gazebo
+[113.625s] Invoking command in '/home/shrey/ros2_ws/build/arm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_gazebo -- -j12 -l12
+[113.731s] Invoked command in '/home/shrey/ros2_ws/build/arm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_gazebo -- -j12 -l12
+[113.737s] Invoking command in '/home/shrey/ros2_ws/build/arm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_gazebo
+[113.755s] -- Install configuration: ""
+[113.757s] -- Execute custom install script
+[113.759s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/launch/arm_world.launch.py
+[113.779s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/package_run_dependencies/arm_gazebo
+[113.800s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/parent_prefix_path/arm_gazebo
+[113.823s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.sh
+[113.843s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.dsv
+[113.865s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.sh
+[113.887s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.dsv
+[113.909s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.bash
+[113.931s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.sh
+[113.950s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.zsh
+[113.972s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.dsv
+[113.991s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.dsv
+[114.013s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/packages/arm_gazebo
+[114.037s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig.cmake
+[114.058s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig-version.cmake
+[114.076s] -- Symlinking: /home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.xml
+[114.100s] Invoked command in '/home/shrey/ros2_ws/build/arm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_gazebo

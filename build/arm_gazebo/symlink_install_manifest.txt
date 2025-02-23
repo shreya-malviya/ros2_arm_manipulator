@@ -1,0 +1,16 @@
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/launch/arm_world.launch.py
+/home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/package_run_dependencies/arm_gazebo
+/home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/parent_prefix_path/arm_gazebo
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.sh
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/ament_prefix_path.dsv
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.sh
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/environment/path.dsv
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.bash
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.sh
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.zsh
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/local_setup.dsv
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.dsv
+/home/shrey/ros2_ws/install/arm_gazebo/share/ament_index/resource_index/packages/arm_gazebo
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig.cmake
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/cmake/arm_gazeboConfig-version.cmake
+/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.xml

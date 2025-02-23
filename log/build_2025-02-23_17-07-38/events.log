@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.001081] (-) JobUnselected: {'identifier': 'arm_controller'}
+[0.001225] (-) JobUnselected: {'identifier': 'arm_description'}
+[0.001299] (-) JobUnselected: {'identifier': 'arm_gazebo'}
+[0.001427] (-) EventReactorShutdown: {}

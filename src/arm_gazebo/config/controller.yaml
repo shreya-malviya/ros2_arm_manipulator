@@ -1,0 +1,25 @@
+ros2_control:
+  # Specify the update rate of the controller system
+  ros__parameters:
+    update_rate: 50 # Hz
+
+# Define joint state controller
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  ros__parameters:
+    publish_rate: 50 # Hz, rate at which joint states are published
+
+# Define position controllers for multiple joints
+position_controllers:
+  type: position_controllers/JointGroupPositionController
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+    pid:
+      p: 100.0
+      i: 0.0
+      d: 10.0
+    state_publish_rate: 50 # Hz

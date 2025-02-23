@@ -1,0 +1,214 @@
+[0.845s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'arm_gazebo', 'arm_description']
+[0.845s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['arm_gazebo', 'arm_description'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f804bdf7f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f804bdf6e90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f804bdf6e90>>)
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.069s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shrey/ros2_ws'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore_ament_install'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_pkg']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_pkg'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_meta']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_meta'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ros']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ros'
+[1.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_controller' with type 'ros.ament_cmake' and name 'arm_controller'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extensions ['ignore', 'ignore_ament_install']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extension 'ignore'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extension 'ignore_ament_install'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extensions ['colcon_pkg']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extension 'colcon_pkg'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extensions ['colcon_meta']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extension 'colcon_meta'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extensions ['ros']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description) by extension 'ros'
+[1.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_description' with type 'ros.ament_cmake' and name 'arm_description'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'ros'
+[1.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_gazebo' with type 'ros.ament_cmake' and name 'arm_gazebo'
+[1.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.171s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arm_controller' in 'src/arm_controller'
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/shrey/ros2_ws/install
+[1.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'cmake_args' from command line to 'None'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'cmake_target' from command line to 'None'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.492s] DEBUG:colcon.colcon_core.verb:Building package 'arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrey/ros2_ws/build/arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrey/ros2_ws/install/arm_description', 'merge_install': False, 'path': '/home/shrey/ros2_ws/src/arm_description', 'symlink_install': False, 'test_result_base': None}
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.494s] DEBUG:colcon.colcon_core.verb:Building package 'arm_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrey/ros2_ws/build/arm_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrey/ros2_ws/install/arm_gazebo', 'merge_install': False, 'path': '/home/shrey/ros2_ws/src/arm_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.495s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shrey/ros2_ws/src/arm_description' with build type 'ament_cmake'
+[1.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shrey/ros2_ws/src/arm_description'
+[1.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.534s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shrey/ros2_ws/src/arm_gazebo' with build type 'ament_cmake'
+[1.535s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shrey/ros2_ws/src/arm_gazebo'
+[1.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrey/ros2_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_description -- -j12 -l12
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrey/ros2_ws/build/arm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_gazebo -- -j12 -l12
+[1.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrey/ros2_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_description -- -j12 -l12
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrey/ros2_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_description
+[1.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrey/ros2_ws/build/arm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_gazebo -- -j12 -l12
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrey/ros2_ws/build/arm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_gazebo
+[1.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_gazebo)
+[1.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrey/ros2_ws/build/arm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_gazebo
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo' for CMake module files
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo' for CMake config files
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_gazebo', 'cmake_prefix_path')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/hook/cmake_prefix_path.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/hook/cmake_prefix_path.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/hook/cmake_prefix_path.sh'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/bin'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/lib/pkgconfig/arm_gazebo.pc'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/lib/python3.10/site-packages'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/bin'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.ps1'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.sh'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.bash'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrey/ros2_ws/install/arm_gazebo/share/colcon-core/packages/arm_gazebo)
+[1.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_gazebo)
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo' for CMake module files
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo' for CMake config files
+[1.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_gazebo', 'cmake_prefix_path')
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/hook/cmake_prefix_path.ps1'
+[1.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/hook/cmake_prefix_path.dsv'
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/hook/cmake_prefix_path.sh'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/bin'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/lib/pkgconfig/arm_gazebo.pc'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/lib/python3.10/site-packages'
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_gazebo/bin'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.ps1'
+[1.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.dsv'
+[1.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.sh'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.bash'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_gazebo/share/arm_gazebo/package.zsh'
+[1.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrey/ros2_ws/install/arm_gazebo/share/colcon-core/packages/arm_gazebo)
+[1.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_description)
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description' for CMake module files
+[1.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrey/ros2_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_description
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description' for CMake config files
+[1.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_description', 'cmake_prefix_path')
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_description/share/arm_description/hook/cmake_prefix_path.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrey/ros2_ws/install/arm_description/share/arm_description/hook/cmake_prefix_path.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_description/share/arm_description/hook/cmake_prefix_path.sh'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/lib/pkgconfig/arm_description.pc'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/lib/python3.10/site-packages'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/bin'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.dsv'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.sh'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.bash'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.zsh'
+[1.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrey/ros2_ws/install/arm_description/share/colcon-core/packages/arm_description)
+[1.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_description)
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description' for CMake module files
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description' for CMake config files
+[1.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_description', 'cmake_prefix_path')
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_description/share/arm_description/hook/cmake_prefix_path.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrey/ros2_ws/install/arm_description/share/arm_description/hook/cmake_prefix_path.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrey/ros2_ws/install/arm_description/share/arm_description/hook/cmake_prefix_path.sh'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/bin'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/lib/pkgconfig/arm_description.pc'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/lib/python3.10/site-packages'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/shrey/ros2_ws/install/arm_description/bin'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.ps1'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.sh'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.bash'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrey/ros2_ws/install/arm_description/share/arm_description/package.zsh'
+[1.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrey/ros2_ws/install/arm_description/share/colcon-core/packages/arm_description)
+[1.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.854s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.031s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.031s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.031s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.033s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.034s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrey/ros2_ws/install/local_setup.ps1'
+[2.036s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shrey/ros2_ws/install/_local_setup_util_ps1.py'
+[2.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrey/ros2_ws/install/setup.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrey/ros2_ws/install/local_setup.sh'
+[2.042s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shrey/ros2_ws/install/_local_setup_util_sh.py'
+[2.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrey/ros2_ws/install/setup.sh'
+[2.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrey/ros2_ws/install/local_setup.bash'
+[2.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrey/ros2_ws/install/setup.bash'
+[2.048s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrey/ros2_ws/install/local_setup.zsh'
+[2.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrey/ros2_ws/install/setup.zsh'

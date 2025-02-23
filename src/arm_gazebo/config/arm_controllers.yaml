@@ -1,0 +1,15 @@
+controller_list:
+  - name: joint_state_controller
+    type: joint_state_controller/JointStateController
+    ros__parameters:
+      publish_rate: 50
+
+  - name: position_controllers
+    type: position_controllers/JointGroupPositionController
+    ros__parameters:
+      joints:
+        - joint1
+        - joint2
+        - joint3
+        - joint4
+      command_interface: position

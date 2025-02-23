@@ -1,0 +1,25 @@
+[0.068s] Invoking command in '/home/shrey/ros2_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_description -- -j12 -l12
+[0.243s] Invoked command in '/home/shrey/ros2_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrey/ros2_ws/build/arm_description -- -j12 -l12
+[0.269s] Invoking command in '/home/shrey/ros2_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_description
+[0.289s] -- Install configuration: ""
+[0.292s] -- Execute custom install script
+[0.302s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//launch/display.launch.py
+[0.303s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//urdf/arm.urdf
+[0.303s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//urdf/arm.urdf.xacro
+[0.304s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description//urdf/arm_hardware_interface.xacro
+[0.305s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[0.306s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[0.308s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[0.311s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[0.311s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/path.sh
+[0.311s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/environment/path.dsv
+[0.311s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.bash
+[0.311s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.sh
+[0.313s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.zsh
+[0.320s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/local_setup.dsv
+[0.320s] -- Symlinking: /home/shrey/ros2_ws/install/arm_description/share/arm_description/package.dsv
+[0.351s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[0.353s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[0.356s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[0.357s] -- Up-to-date symlink: /home/shrey/ros2_ws/install/arm_description/share/arm_description/package.xml
+[0.438s] Invoked command in '/home/shrey/ros2_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrey/ros2_ws/build/arm_description
